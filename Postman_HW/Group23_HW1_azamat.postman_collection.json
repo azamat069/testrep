@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "5e42d289-ae84-4365-849c-2bf82b4e1f7e",
-		"name": "Group23",
+		"name": "Group23_HW1_azamat",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -85,7 +85,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info?name=Azamat&age=29&weight=65",
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Azamat&age=29&weight=65",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -95,7 +95,7 @@
 					],
 					"port": "5005",
 					"path": [
-						"object_info"
+						"object_info_1"
 					],
 					"query": [
 						{
@@ -193,7 +193,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?age=29&name=Azamat&salary=1000",
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Azamat&age=29&salary=1000",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -207,12 +207,12 @@
 					],
 					"query": [
 						{
-							"key": "age",
-							"value": "29"
-						},
-						{
 							"key": "name",
 							"value": "Azamat"
+						},
+						{
+							"key": "age",
+							"value": "29"
 						},
 						{
 							"key": "salary",
